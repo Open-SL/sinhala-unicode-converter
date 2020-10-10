@@ -12,9 +12,15 @@ npm i --save sinhala-unicode-coverter
 
 # Usage
 ```ts
-import {singlishToUnicode} from "sinhala-unicode-coverter"
+// Legacy to unicode
+import { dlManelToUnicode } from "sinhala-unicode-coverter"
+const a = dlManelToUnicode("Y%S ,xld")
+console.log(a) // ශ්‍රී ලංකා 
 
-const unicode = singlishToUnicode("")
+// Singlish to Unicode
+import { singlishToUnicode } from "sinhala-unicode-coverter"
+const b = singlishToUnicode("shrii la\\nkaa")
+console.log(b) // ශ්‍රී ලංකා 
 
 ```
 
