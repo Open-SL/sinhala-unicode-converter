@@ -1,6 +1,6 @@
 {
   "name": "sinhala-unicode-coverter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to translate between sinhala unicode and legacy fonts",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
