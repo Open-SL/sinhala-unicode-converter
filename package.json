@@ -1,0 +1,28 @@
+{
+  "name": "sinhala-unicode-coverter",
+  "version": "1.0.0",
+  "description": "A library to translate between sinhala unicode and legacy fonts",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": ["/lib"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublish": "npm run tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jldfa"
+  },
+  "keywords": [
+    "sinhala",
+    "unicode",
+    "legacy",
+    "translater"
+  ],
+  "author": "Janaka Chathuranga",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
