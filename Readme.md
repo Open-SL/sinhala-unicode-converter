@@ -26,8 +26,3 @@ console.log(b) // ශ්‍රී ලංකා
 
 
 
-
-# Project in TS 
-https://blog.logrocket.com/publishing-node-modules-typescript-es-modules/
-
-
