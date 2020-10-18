@@ -16,7 +16,7 @@ yarn add sinhala-unicode-coverter
 
 # API
 
-There are 12 methods exported from the package. Each of them takes a string as a input and returns the converted string.
+There are 12 methods exported from the package. Each of them takes an string as a input and returns the converted string.
 
 ## Legacy format to Unicode 
 
@@ -27,6 +27,7 @@ Method | Description
 `kaputaToUnicode` | Kaputa to Unicode
 `fmAbayaToUnicode` | FM-Abaya to Unicode
 `amaleeToUnicode` | Amalee to Unicode  
+`thibusToUnicode` | Thibus to Unicode  
 
    
 
@@ -38,7 +39,7 @@ Method | Description
 `unicodeToBamini` | Unicode to Bamini
 `unicodeToKaputa` | Unicode to Kaputa
 
-> Unfortunately we don't have unicode to legacy functionality for fmAbaya and Amalee.
+> Unfortunately we don't have unicode to legacy functionality for FM-Abaya, Amalee, Thibus.
 
 
 ## Singlish to Unicode
@@ -46,6 +47,7 @@ Method | Description
 Method | Description
 --- | ---
 `singlishToUnicode` | Singlish (Sinhala) to Unicode
+`singlishPhoneticToUnicode` | Singlish Phonetic (Sinhala) to Unicode
    
 ## Tanglish to Unicode
   
