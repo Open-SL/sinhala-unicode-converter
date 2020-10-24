@@ -3,6 +3,7 @@ Original translation code was developed by Language Technology Research Laborato
 Source:  https://ucsc.cmb.ac.lk//ltrl/services/feconverter/
 
 # Installation 
+Repository: https://www.npmjs.com/package/sinhala-unicode-coverter  
 
 Using npm:
 ```sh
