@@ -65,7 +65,7 @@ const a = dlManelToUnicode("Y%S ,xld")
 console.log(a) // ශ්‍රී ලංකා 
 
 // Unicode to DL-Manel
-const b = dlManelToUnicode("ශ්‍රී ලංකා")
+const b = unicodeToDlManel("ශ්‍රී ලංකා")
 console.log(b) // Y%S ,xld
 
 
